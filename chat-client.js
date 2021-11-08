@@ -1,4 +1,4 @@
-var socket = require('socket.io-client')('http://localhost:3000');
+var socket = require('socket.io-client')('http://10.100.16.157:3000');
 const repl = require('repl');
 const chalk = require('chalk');
 let username = null
